@@ -3,10 +3,8 @@
 	font-family: Montserrat
 
 }
-.row{
+.footer-row{
     background-color: rgb(68, 66, 66);
-    padding-top:30px ;
-
 }
 .text-left{
 		color: white;
@@ -17,26 +15,29 @@
 .imp{
 	color:white;
 }
+/* changes to be made in his file */
+/* new changes */
 .spacing_change{
-	margin-top: 15px;
+		padding-top: 15px;
+		background-color:rgb(68, 66, 66) ;  
+		padding-bottom: 15px;
+}
+.text-center{
+	font-size: 11px;
+	color: white;
 }
 .space{
 	margin-bottom: 15px;
 }
-.text-center{
-	font-size: 11px;
-}
+
 .dot{
 	list-style: none;
 }
-.col-sm-3 ul li a{
+.footer_change ul li a{
 	text-decoration: none;
 }
-.col-sm-3 ul li a:hover{
+.footer_change ul li a:hover{
 	color: yellow;
-}
-.span{
-	padding: 10px;
 }
 .span1{
     font-family: 'Times New Roman', Times, serif;
@@ -58,4 +59,14 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 50px;
     margin-top: 80px;
+}
+/* new changes */
+/* space above footer-image */
+.container{
+	padding-top: 30px;
+}
+/* hover effect on categories menu */
+.hover-effect:hover{
+	text-decoration-line: underline;
+	font-weight: bold;
 }

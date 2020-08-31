@@ -3,9 +3,9 @@
 	font-family: Montserrat
 
 }
-.footer_row{
+/* new changes */
+.footer-row{
 	background-color: rgb(68, 66, 66);
-	padding-top: 30px;
 
 }
 .text-left{
@@ -17,17 +17,23 @@
 .imp{
 	color:white;
 }
+/* copyright changes */
+/* new changes */
 .spacing_change{
-	margin-top: 15px;
-
-
+	padding-top: 15px;
+	background-color:rgb(68, 66, 66) ;  
+	padding-bottom: 15px;
 }
+/* new changes */
+.text-center{
+	font-size: 11px;
+	color: white;
+}
+/* padding below email */
 .space{
 	margin-bottom: 15px;
 }
-.text-center{
-	font-size: 15px;
-}
+/* changes in footer menu */
 .dot{
 	list-style: none;
 }
@@ -37,28 +43,57 @@
 .footer_change ul li a:hover{
 	color: yellow;
 }
-.span{
+/* .span{
 	padding: 10px;
-}
+} */
 .span1{
 	font-family: 'Times New Roman', Times, serif;
 	font-size:23px;
 }
+/* spacing between navbar items */
 .nav-item{
 	margin-left: 40px;
 }
+/* logo lo-vo-cal */
 .logo{
 	font-size: 20px;
 	font-family: 'Times New Roman', Times, serif;
 }
-
+/* new changes navbar hover effect */
+.hover-effect:hover{
+	text-decoration-line: underline;
+	font-weight: bold;
+}
 /*SECTION*/
+
 .section1{
 
+background-color: white;
+
 }
+
 .section2{
 
+	background-color: white;
+
 }
+
 .section3{
 
+	background-color: white;
+
+}
+/* new changes */
+.container{
+	padding-top: 30px;
+}
+/* buy now button */
+/* new change */
+button{
+	margin-bottom: 20px;
+	/* margin-right: 50px; */
+}
+/* new change */
+.all-row button a{
+	text-decoration:none;
 }
