@@ -97,3 +97,6 @@ button{
 .all-row button a{
 	text-decoration:none;
 }
+.service_column{
+	padding-bottom: 10px;
+}
