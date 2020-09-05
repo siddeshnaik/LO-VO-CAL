@@ -203,3 +203,152 @@ img{
 	 width: 25%;
 	 margin-left: 0;
 }
+.footer-row{
+	background-color: rgb(68, 66, 66);
+
+}
+.text-left{
+		color: white;
+}
+.footer_link{
+	color:white;
+}
+.imp{
+	color:white;
+}
+/* copyright changes */
+/* new changes */
+.spacing_change{
+	padding-top: 15px;
+	background-color:rgb(68, 66, 66) ;  
+	padding-bottom: 15px;
+}
+/* new changes */
+.text-center{
+	font-size: 11px;
+	color: white;
+}
+/* padding below email */
+.space{
+	margin-bottom: 15px;
+}
+/* changes in footer menu */
+.dot{
+	list-style: none;
+}
+.footer_change ul li a{
+	text-decoration: none;
+}
+.footer_change ul li a:hover{
+	color: yellow;
+}
+/* .span{
+	padding: 10px;
+} */
+.span1{
+	font-family: 'Times New Roman', Times, serif;
+	font-size:23px;
+}
+/* spacing between navbar items */
+.nav-item{
+	margin-left: 40px;
+}
+/* logo lo-vo-cal */
+.logo{
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+}
+/* new changes navbar hover effect */
+.hover-effect:hover{
+	text-decoration-line: underline;
+	font-weight: bold;
+}
+/*SECTION*/
+
+.section1{
+
+background-color: white;
+/* background-image: linear-gradient(to right, papayawhip,peachpuff,peachpuff,peru); */
+
+}
+
+.section2{
+
+	background-color: white;
+
+}
+
+.section3{
+
+	background-color: white;
+
+}
+/* new changes */
+.container{
+	padding-top: 30px;
+}
+/* buy now button */
+/* new change */
+button{
+	margin-bottom: 20px;
+	/* margin-right: 50px; */
+}
+/* new change */
+.all-row button a{
+	text-decoration:none;
+}
+.service_column{
+	padding-bottom: 10px;
+}
+.boxed{
+	/* border: 0.1px rgb(0, 0, 0) solid; */
+	background-image: linear-gradient(to right, papayawhip,peachpuff,peachpuff,peru);
+}
+.bin{
+	width:124px;
+	/* display: inline-block; */
+	border-radius: 30px;
+	align-items: flex-end;
+
+}
+.bin1{
+	background-image: linear-gradient(to right,rgb(51, 145, 51),green,rgb(10, 95, 10),rgb(16, 77, 16));
+		
+}
+.bin2{
+	
+	background-image: linear-gradient(to right,red, purple);
+}
+.gap{
+	margin-top: 15px;
+	background-image: linear-gradient(to bottom,peru,brown,maroon);
+	border-radius: 15px;
+	border: 0;
+	/* color: maroon; */
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 800;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+strong{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+}
+h3{
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+}
+p{
+	text-align:center ;
+	padding-top: 8px;
+	color:maroon;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignimg{
+	margin-top: 15px;
+	border: maroon 2px solid;
+}
