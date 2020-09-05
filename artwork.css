@@ -1,8 +1,6 @@
 *{
 
-	/* font-family: Montserrat; */
-	font-size:15px;
-	font-weight:500;
+	font-family: Montserrat
 
 }
 /* body{
@@ -13,7 +11,7 @@
 	background-color: rgb(68, 66, 66);
 
 }
-.text-left{
+.color_change{
 		color: white;
 }
 .footer_link{
@@ -92,6 +90,7 @@ background-color: white;
 /* new changes */
 .container{
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 /* buy now button */
 /* new change */
@@ -115,7 +114,6 @@ button{
 	/* display: inline-block; */
 	border-radius: 30px;
 	align-items: flex-end;
-
 }
 .bin1{
 	background-image: linear-gradient(to right,rgb(51, 145, 51),green,rgb(10, 95, 10),rgb(16, 77, 16));

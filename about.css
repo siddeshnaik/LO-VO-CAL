@@ -1,6 +1,8 @@
 *{
 
-	font-family: Montserrat
+	/* font-family: Montserrat; */
+	font-size:15px;
+	font-weight:500;
 
 }
 .footer-row{
@@ -52,13 +54,18 @@
 }
 /* main */
 .main{
-    height: 100vh;
-    background-color: whitesmoke;
+	height: 100%;
+    /* background-image: linear-gradient(to right,white,rgb(207, 236, 236),rgb(172, 243, 243),rgb(117, 247, 247),rgb(43, 241, 222)); */
+	/* background-image: linear-gradient(to right,white, rgb(168, 241, 241),turquoise,aqua,teal); */
+	/* background-image: linear-gradient(to right,white,rgb(247, 235, 214),rgb(238, 207, 150),rgb(247, 202, 119),rgb(243, 173, 42)); */
+	/* background-image: linear-gradient(to right,rgb(180, 177, 177),rgb(133, 130, 130),rgb(112, 112, 112),black); */
 }
 h1{
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 50px;
-    margin-top: 80px;
+	font-family: 'Times New Roman', Times, serif;
+	/* color: white; */
+	font-size:15px;
+	padding-top: 40px;
+	text-align: center;
 }
 /* new changes */
 /* space above footer-image */
