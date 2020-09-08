@@ -10,6 +10,7 @@
 } */
 /* new changes */
 .footer-row{
+	padding-top: 30px;
 	background-color: rgb(68, 66, 66);
 
 }
@@ -73,7 +74,8 @@
 
 .section1{
 
-background-color: white;
+padding-top: 30px;
+
 /* background-image: linear-gradient(to right, papayawhip,peachpuff,peachpuff,peru); */
 
 }
@@ -90,9 +92,9 @@ background-color: white;
 
 }
 /* new changes */
-.container{
+/* .container{
 	padding-top: 30px;
-}
+} */
 /* buy now button */
 /* new change */
 button{
@@ -106,31 +108,66 @@ button{
 .service_column{
 	padding-bottom: 10px;
 }
+/* box containing image text and whtsapp insta button */
 .boxed{
 	/* border: 0.1px rgb(0, 0, 0) solid; */
 	background-image: linear-gradient(to right, papayawhip,peachpuff,peachpuff,peru);
 }
+.boxed:hover{
+    transform:scale(1.08); 
+    /*overflow:hidden;
+    height: 500px;
+    width:100px; */
+    position: relative;
+    /* top: -25px;
+    left: -35px; */
+    width: auto;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
+/* button in the box */
 .bin{
-	width:124px;
+
+   width:105px;
 	/* display: inline-block; */
 	border-radius: 30px;
 	align-items: flex-end;
+	padding-left: 5px;
+	padding-right: 5px;
 
 }
-.bin1{
-	background-image: linear-gradient(to right,rgb(51, 145, 51),green,rgb(10, 95, 10),rgb(16, 77, 16));
-		
+.bin1:hover,.bin2:hover{
+    transform:scale(0.7); 
+    /*overflow:hidden;
+    height: 500px;
+    width:100px; */
+    position: relative;
+    /* top: -25px;
+    left: -35px; */
+    width: auto;
+    height: auto;
+    display: block;
+    z-index: 999;
 }
+/* whatsapp button */
+/*.bin1{
+	background-image: linear-gradient(to right,rgb(51, 145, 51),green,rgb(10, 95, 10),rgb(16, 77, 16));
+	
+		
+}*/
+/* insta button */
 .bin2{
 	
 	background-image: linear-gradient(to right,red, purple);
+
 }
 .gap{
 	margin-top: 15px;
 	background-image: linear-gradient(to bottom,peru,brown,maroon);
 	border-radius: 15px;
 	border: 0;
-	/* color: maroon; */
+	color: maroon; 
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: 800;
 	padding-right: 20px;
@@ -149,12 +186,13 @@ p{
 	padding-top: 8px;
 	color:maroon;
 }
-img{
-	display: block;
+
+.alignimg{
+	height: auto;
+    width: auto;
+    position: relative;
 	margin-left: auto;
 	margin-right: auto;
-}
-.alignimg{
 	margin-top: 15px;
 	border: maroon 2px solid;
 }
