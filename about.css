@@ -6,6 +6,7 @@
 
 }
 .footer-row{
+	padding-top: 30px;
     background-color: rgb(68, 66, 66);
 }
 .text-left{
@@ -69,9 +70,9 @@ h1{
 }
 /* new changes */
 /* space above footer-image */
-.container{
+/* .container{
 	padding-top: 30px;
-}
+} */
 /* hover effect on categories menu */
 .hover-effect:hover{
 	text-decoration-line: underline;

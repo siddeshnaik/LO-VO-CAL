@@ -137,37 +137,36 @@ button{
 	padding-right: 5px;
 
 }
-.bin1:hover,.bin2:hover{
+/* .bin1:hover,.bin2:hover{
     transform:scale(0.7); 
     /*overflow:hidden;
     height: 500px;
-    width:100px; */
+    width:100px;
     position: relative;
-    /* top: -25px;
-    left: -35px; */
+    top: -25px;
+    left: -35px;
     width: auto;
     height: auto;
     display: block;
     z-index: 999;
-}
+} */
 /* whatsapp button */
-/*.bin1{
+.bin1{
 	background-image: linear-gradient(to right,rgb(51, 145, 51),green,rgb(10, 95, 10),rgb(16, 77, 16));
-	
+	/* margin-right: 15px; */
 		
-}*/
+}
 /* insta button */
 .bin2{
 	
 	background-image: linear-gradient(to right,red, purple);
-
 }
 .gap{
 	margin-top: 15px;
 	background-image: linear-gradient(to bottom,peru,brown,maroon);
 	border-radius: 15px;
 	border: 0;
-	color: maroon; 
+	/* color: maroon; */
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: 800;
 	padding-right: 20px;
@@ -186,7 +185,11 @@ p{
 	padding-top: 8px;
 	color:maroon;
 }
-
+/* img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
 .alignimg{
 	height: auto;
     width: auto;
